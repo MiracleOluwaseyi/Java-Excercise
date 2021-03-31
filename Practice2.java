@@ -23,7 +23,8 @@ class Practice2 {
         System.out.println("Your CGPA is " + GPA1 + " " + GPA2 + " is " + average);
 
         if (average <= 5.0) {
-            System.out.println("If you have Good Grade");
+            System.out.println("You have Good Grade");
+
 
 
             //   else
