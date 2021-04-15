@@ -1,12 +1,18 @@
 package Practice;
 
+import Semicolon.Africa.Student;
+
 import java.util.Scanner;
 
 public class Palindrome {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        double studentGrade;
+        System.out.println("Enter your Grade: ");
+        studentGrade = input.nextDouble();
+        
 
-        int firstDigit;
+       /* int firstDigit;
         int secondDigit;
 
         System.out.println("Enter your first Digit: ");
@@ -23,7 +29,8 @@ public class Palindrome {
 
       if (firstDigit != secondDigit && secondDigit != firstDigit){
           System.out.println("Sorry it is not a Palindrome");
-      }
+      }*/
+        System.out.println(studentGrade >= 60 ? "PASSED": "FAILED");
     }
 
 
